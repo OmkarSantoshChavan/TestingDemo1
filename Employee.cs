@@ -22,6 +22,6 @@ namespace ORMFrameWork.Models
         public string job { get; set; }
         [Range(minimum:1,maximum:1000)]
         public int deptno { get; set; }
-
+//new changes by Omkar Chavan
     }
 }
